@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "vacinas",
-      "path": "data/vacinas.csv",
+      "path": "https://coronavirus.saude.mg.gov.br/images/microdados/xlsx_vacinas.xlsx",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
