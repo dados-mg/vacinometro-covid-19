@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "vacinas-fev",
-      "path": "data/vacinas-fev",
+      "path": "data/vacinas-fev.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
