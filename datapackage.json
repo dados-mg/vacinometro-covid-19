@@ -1,0 +1,95 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "vacinas",
+      "path": "data/vacinas.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "URS",
+            "type": "string",
+            "format": "default",
+            "title": "Unidade Regional de Saúde",
+            "description": "Divisão administrativa da SES à qual pertence cada município"
+          },
+          {
+            "name": "MICRO",
+            "type": "string",
+            "format": "default",
+            "title": "Microrregião de saúde",
+            "description": "Divisão territorial do Plano Diretor de Regionalização da SES à qual pertence cada município"
+          },
+          {
+            "name": "MACRO",
+            "type": "string",
+            "format": "default",
+            "title": "Macrorregião de saúde",
+            "description": "Divisão territorial do Plano Diretor de Regionalização da SES à qual pertence de cada município"
+          },
+          {
+            "name": "CodigoIBGE",
+            "type": "integer",
+            "format": "default",
+            "title": "Código IBGE",
+            "description": "Código IBGE de cada município"
+          },
+          {
+            "name": "Data",
+            "type": "integer",
+            "format": "default",
+            "title": "Data de vacinação",
+            "description": "Data do registro da vacinação"
+          },
+          {
+            "name": "Grupo",
+            "type": "string",
+            "format": "default",
+            "title": "Grupo Prioritário",
+            "description": "Grupo elegido para prioridade na vacinação segundo diretrizes e normativas federais"
+          },
+          {
+            "name": "Dose",
+            "type": "string",
+            "format": "default",
+            "title": "Dose da vacina",
+            "description": "Discrimina a qual dose se refere esta vacina, a primeira ou a segunda"
+          },
+          {
+            "name": "Doses Aplicadas",
+            "type": "string",
+            "format": "default",
+            "title": "Quantidade de doses aplicadas",
+            "description": "Quantidade de doses aplicadas"
+          }
+        ]
+      },
+      "description": "Contém dados sobre a aplicação de vacinas contra o novo coronavírus, para os grupos prioritários definidos, por município e região de residência, além da data de aplicação\n\n",
+      "title": "Vacinômetro",
+      "format": "csv"
+    }
+  ],
+  "keywords": [
+    "saude",
+    "vacina",
+    "COVID-19"
+  ],
+  "name": "vacinometro-covid-19",
+  "title": "Vacinômetro COVID-19",
+  "description": "Contém informações sobre aplicação das doses da vacina contra o novo coronavírus.\n\n",
+  "homepage": "https://coronavirus.saude.mg.gov.br/vacinometro",
+  "contributors": [
+    {
+      "title": "Secretaria de Estado de Saúde",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}
