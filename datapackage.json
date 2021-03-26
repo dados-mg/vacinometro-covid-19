@@ -2,7 +2,7 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "vacinas-fev",
+      "name": "vacinas-jan",
       "path": "vacinas-jan.csv",
       "profile": "tabular-data-resource",
       "schema": {
