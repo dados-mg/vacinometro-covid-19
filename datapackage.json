@@ -2,8 +2,8 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "vacinas-jan",
-      "path": "vacinas-jan.csv",
+      "name": "xlsx_vacinas",
+      "path": "https://coronavirus.saude.mg.gov.br/images/microdados/xlsx_vacinas.xlsx",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -74,7 +74,7 @@
       },
       "description": "Contém dados sobre a aplicação de vacinas contra o novo coronavírus, para os grupos prioritários definidos, por município e região de residência, além da data de aplicação\n\n",
       "title": "Vacinômetro",
-      "format": "csv"
+      "format": "xlsx"
     }
   ],
   "keywords": [
