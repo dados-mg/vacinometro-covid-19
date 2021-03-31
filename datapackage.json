@@ -65,7 +65,7 @@
           },
           {
             "name": "Doses Aplicadas",
-            "type": "string",
+            "type": "integer",
             "format": "default",
             "title": "Quantidade de doses aplicadas",
             "description": "Quantidade de doses aplicadas"
