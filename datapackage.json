@@ -54,21 +54,44 @@
             "type": "string",
             "format": "default",
             "title": "Grupo Prioritário",
-            "description": "Grupo elegido para prioridade na vacinação segundo diretrizes e normativas federais"
+            "description": "Grupo prioritário na ordem vacinação segundo diretrizes e normativas federais",
+            "constraints": {
+        "enum": [
+          "INDÍGENAS ALDEADOS",
+          "IDOSOS EM ILPI",
+          "PESSOAS COM DEFICIÊNCIA EM RESIDÊNCIAS INCLUSIVAS",
+          "PROFISSIONAIS DE SAÚDE",
+          "PESSOAS DE 90 ANOS OU MAIS",
+          "PESSOAS DE 85 A 89 ANOS",
+          "PESSOAS DE 80 A 84 ANOS",
+          "PESSOAS DE 75 A 79 ANOS",
+          "PESSOAS DE 70 A 74 ANOS",
+          "PESSOAS DE 65 A 69 ANOS",
+          "PESSOAS DE 60 A 64 ANOS",
+          "POVOS E COMUNIDADES TRADICIONAIS QUILOMBOLAS",
+          "POVOS E COMUNIDADES TRADICONAIS RIBEIRINHAS"
+        ]
+         }
           },
           {
             "name": "Dose",
             "type": "string",
             "format": "default",
             "title": "Dose da vacina",
-            "description": "Discrimina a qual dose se refere esta vacina, a primeira ou a segunda"
+            "description": "Discrimina a qual dose se refere esta vacina, a primeira ou a segunda",
+            "constraints": {
+              "enum": [
+                "PRIMEIRA DOSE",
+                "SEGUNDA DOSE"
+        ]
+         }
           },
           {
             "name": "Doses Aplicadas",
             "type": "integer",
             "format": "default",
             "title": "Quantidade de doses aplicadas",
-            "description": "Quantidade de doses aplicadas"
+            "description": "Quantidade de doses aplicadas. Quantidades negativas significam ajustes e correções em quantidades informadas anteriormente pelos municípios."
           }
         ]
       },
